@@ -17,7 +17,7 @@ kubectl exec -it -n orc8r postgresql-0 -- bash -c \
 ### Restore:
 
 create magma database:
-```sql
+```bash
 kubectl exec -it -n orc8r postgresql-0 -- bash -c \
   'PGPASSWORD=postgres psql -U postgres -c "CREATE DATABASE magma WITH OWNER postgres;"'
 ```
