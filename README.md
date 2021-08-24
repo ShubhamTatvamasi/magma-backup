@@ -6,7 +6,7 @@ kubectl exec -it -n orc8r postgresql-0 -- bash -c \
   'PGPASSWORD=postgres psql -U postgres -d magma'
 ```
 
-### backup
+### Backup
 
 backup magma database:
 ```bash
